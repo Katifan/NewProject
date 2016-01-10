@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>First title</title>
+		<link href="/JEETest/css/style.css" rel="stylesheet">
+		<script src="/JEETest/js/script.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<meta charset="utf-8">
+	</head>
+	<body onload="setStrings()">
+		<div class="tabs" align="left">
+			<input id="tab1" type="radio" name="tabs" checked>
+			<label for="tab1" title="Вкладка 1">Запрос</label>
+		 
+			<input id="tab2" type="radio" name="tabs">
+			<label for="tab2" title="Вкладка 2">Ответ</label>
+		 
+			<input id="tab3" type="radio" name="tabs">
+			<label for="tab3" title="Вкладка 3">История</label>
+			
+			<section id="content1">
+				<input type="text" id="textEdit2">
+				<br/>
+				<input type="text" id="textEdit3">
+				<br/>
+				<button onclick="hello()">Touch me</button>
+			</section>  
+			<section id="content2">
+				
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+				<p>Вкладка 2</p>
+			</section> 
+			<section id="content3">
+				<input type="text" id="textEdit1" oninput="searchValue()">
+				<button id = "prev" onclick="previousPage()">Назад</button>
+				<button id = "next" onclick="nextPage()">Вперёд</button>
+				Сортировать по
+				<select>
+					<option value="fio">ФИО</option>
+					<option value="gender">Пол</option>
+					<option value="birthDate">Дата рождения</option>
+					<option value="phone">Номер телефона</option>
+				</select>
+			</section>  
+		</div>
+
+	</body>
+</html>

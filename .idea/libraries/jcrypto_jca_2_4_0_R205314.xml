@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jcrypto-jca-2.4.0-R205314">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jcrypto-jca-2.4.0-R205314.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
